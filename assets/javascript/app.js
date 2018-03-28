@@ -2,7 +2,7 @@ $(document).ready(function() {
     // start button
 
     function openingPage() {
-        openScreen = "<p class='text-center main-button-container'><a class='btn btn-warning btn-md btn-block start-button' href='#' role=''>Start</a></p>";
+        openScreen = "<p class='text-center main-button-container'><a class='btn btn-md btn-block start-button' href='#' role=''>Start</a></p>";
         $("#mainArea").append(openScreen);
     }
 

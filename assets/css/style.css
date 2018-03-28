@@ -4,9 +4,9 @@
 
 color: black;
 background-color: white(226, 95, 43);
-opacity: .80;
-margin-top: 20px;
-margin-left: auto;
+opacity: .90;
+margin-top: 60px;
+margin-left: 640px;
 
 
 width: 48%;
@@ -21,8 +21,15 @@ h1 {
     widows: 275px;
     padding:15px;
     font-size: 20px;
-
+   background: rgb(51, 235, 241);
+   border-color: rgb(51, 235, 241);
 }
+
+.btn:hover {
+    background: rgb(224, 248, 4);
+    border-color: rgb(224, 248, 4);
+}
+
 .main-button-container {
     max-width: 450px;
     margin-left: auto;
@@ -43,14 +50,17 @@ h1 {
 }
 
 p.text-center {
+    display: block;
     font-size: 24px;
+    text-align: center;
 }
 .answer:hover {
     background: rgb(243, 247, 2);
+
 }
 
 p {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
 }
 .answer {
@@ -60,7 +70,7 @@ p {
     padding: 15px;
     background-color: rgb(6, 245, 225);
     border-radius: 5px;
-    opacity: .50;
+    opacity: .80;
 
 }
 
@@ -83,10 +93,12 @@ img {
 
 .rest-button {
     margin-top:40px;
+    
 }
 
 .summary-correct {
     margin-top: 40px;
+ 
 }
 
 body {
@@ -95,8 +107,16 @@ body {
     background-position: cover;
     background-size: 50%;
     color: rgb(253, 57, 100);
-    font-family: 'Faster One', cursive;
+    font-family: 'Kaushan Script', cursive;
 
+}
+
+.start-button {
+    background: rgb(51, 235, 241);
+}
+
+.start-button:hover {
+    background: rgb(224, 248, 4);
 }
 
   /* // Extra small devices (portrait phones, less than 576px) */
@@ -149,7 +169,7 @@ body {
   /* // Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) and (max-width: 767px) {  
     body {
-      background-image: url('../images/madonna2.jpg');
+      background-color: url('../images/madonna2.jpg');
       background-repeat: repeat;
       text-align: center;
     }
